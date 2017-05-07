@@ -130,14 +130,10 @@ PRODUCT_PACKAGES += \
 
 # reDefined packages
 PRODUCT_PACKAGES += \
-    Gallery2 \
     AboutDND \
     Launcher3 \
     DNDWalls \
     OmniJaws \
-    Phonograph \
-    Amaze \
-    ViaBrowser \
     Turbo
 
 # Custom CM packages
@@ -287,3 +283,4 @@ PRODUCT_PROPERTY_OVERRIDES += \
 -include vendor/cyngn/product.mk
 
 $(call prepend-product-if-exists, vendor/extra/product.mk)
+$(call prepend-product-if-exists, vendor/bootleggers/booty.mk)

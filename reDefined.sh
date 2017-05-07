@@ -39,7 +39,7 @@ echo -e ${ylw}"\n\n ▼ Which build-type do you want to choose?\n"${txtrst}
 echo -e "";
 echo -e ${cya}" 〉 1- Official "${txtrst}${red}"    ︱ Only for the official builds by the maintainers"${txtrst}
 echo -e "";
-echo -e ${cya}" 〉 2- Unofficial "${txtrst}${red}"  ︱ For the unofficial builds"${txtrst}
+echo -e ${cya}" 〉 2- Shishult "${txtrst}${red}"  ︱ For the shishu builds, for legacy team yeah boi"${txtrst}
 echo -e "";
 echo -e ${cya}" 🕑  30/sec Time-out"${txtrst}${red}"︱ Default option"${txtrst}
 echo -e "";
@@ -61,8 +61,8 @@ fi
 if [ "$askvariant" == "2" ]
 then
 echo -e "";
-echo -e ${blu}" ▪ Building unofficial variant "${txtrst}
-export DND_BUILDTYPE=Unofficial
+echo -e ${blu}" ▪ Building shishu variant "${txtrst}
+export DND_BUILDTYPE=Shishult
 echo -e "";
 echo -e "";
 $normal
